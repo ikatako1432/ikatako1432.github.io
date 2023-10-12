@@ -6,8 +6,8 @@ const SCREEN_W = 180;
 const SCREEN_H = 320;
 
 //キャンバスサイズ
-const CANVAN_W = SCREEN_W *2;
-const CANVAN_H = SCREEN_H *2;
+const CANVAS_W = SCREEN_W *2;
+const CANVAS_H = SCREEN_H *2;
 
 //フィールドサイズ
 const FIELD_W = SCREEN_W *2;
@@ -91,7 +91,7 @@ for(let i=0;i<STAR_MAX;i++)star[i].update();
   for(let i=0;i<STAR_MAX;i++)star[i].draw();
   //仮装画面から実際のキャンバスにコピー
   con.drawImage(vcan,camera_x,camera_y, SCREEN_W,SCREEN_H,0,0,
-    CANVAN_W,CANVAN_H);
+    CANVAS_W,CANVAS_H);
 }
 //オンロード
 window.onload=function()
