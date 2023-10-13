@@ -19,8 +19,8 @@ const STAR_MAX =300;
 
 let can = document.getElementById("can")
 let con = can.getContext("2d")
-can.width = CANVAN_W;
-can.height = CANVAN_H;
+can.width = CANVAS_W;
+can.height = CANVAS_H;
 
 //フィールド(仮想画面)
 let vcan = document.createElement("canvas")
