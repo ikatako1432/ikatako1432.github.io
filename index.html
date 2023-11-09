@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>いかたこチャンネル</title>
+  </head>
+  <body>
+    <header>
+   <h1 class="headline">
+     <a>いかたこチャンネル</a>
+   </h1>
+   <ul class="nav-list">
+     <li class="nav-list-item">
+       <a href="#home">ホーム</a>
+     </li>
+     <a class="nav-list-item" href="javascript:blog()">ブログ</a>
+     <li class="nav-list-item">Topic</li>
+   </ul>
+ </header>
+    <div style="text-align:center;">
+<img src="ikatako.jpeg" alt="いかたこ" height="100px" id="home">
+</div>
+<h1 style="text-align:center;">いかたこチャンネル</h1>
+<script type="text/javascript">
+  function blog(){
+  var password = prompt("管理者用パスワードを入力してください:","");
+  if (password == null) {
+alert("キャンセルされました")
+  }
+  else {
+    location.href = password + ".html";
+  }
+}
+</script>
+  </body>
+</html>
