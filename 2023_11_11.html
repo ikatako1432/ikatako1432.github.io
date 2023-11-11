@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ブログ(1)</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+   <h1 class="headline">
+     <a>いかたこチャンネル</a>
+   </h1>
+   <ul class="nav-list">
+     <li class="nav-list-item">
+       <a href="index.html">ホーム</a>
+     </li>
+     <a class="nav-list-item" href="ikatakooo.html">ブログ</a>
+     <li class="nav-list-item">
+       <a href="saisin.html">最新動画</a>
+     </li>
+   </ul>
+ </header>
+ <br>
+<h1 style="text-align:center;">マイクラのサーバーを立てる方法</h1>
+<p style="text-align:center;">こんにちは、いかたこチャンネルです。今回はマイクラのサーバーを立てる方法を解説します</p>
+<p style="text-align:center;">(java版でないとできません)</p>
+<br>
+<h2 style="text-align:center;" id="1">ダウンロード</h2>
+<p style="text-align:center;">まずはサーバーをダウンロードします。</p>
+<p style="text-align:center;">ランチャーを開き、起動構成をクリック。</p>
+<br>
+<div style="text-align:center;">
+<img src="画像(1.00).png" alt="画像(1.00)" height="150px">
+</div>
+<p style="text-align:center;">そして、新規作成を押しましょう</p>
+<p style="text-align:center;">出てきた画面にある<span><img src="画像(1.02).png" height="15px" alt="サーバー"></span>を押します</p>
+<br>
+<div style="text-align:center;">
+<img src="画像(1.01).png" alt="">
+</div>
+<p style="text-align:center;">ファイルがダウンロードされます</p>
+<p style="text-align:center;">デスクトップにファイルを作成して、その中に入れてください。</p>
+<br>
+<h2 style="text-align:center;" id="2">準備</h2>
+<p style="text-align:center;">そして、コマンドプロンプトか、ターミナルを開いてださい</p>
+<p style="text-align:center;">開いたらまず</p>
+<br>
+<p style="text-align:center;">cd /C:/(ユーザー名)/デスクトップ/作ったファイルの名前</p>
+<br>
+<p style="text-align:center;">と入力します</p>
+<p style="text-align:center;">ユーザー名と、作ったファイルの名前は自分で埋めてください。</p>
+<p style="text-align:center;">※Macの場合</p>
+<br>
+<p style="text-align:center;">cd /Users/ユーザ名/Desktop/作ったファイルの名前</p>
+<br>
+<p style="text-align:center;">こちらも同様に、ユーザー名と、作ったファイルの名前は自分で埋めてください。
+<p style="text-align:center;">次に、このコマンドを入力します</p>
+<br>
+<p style="text-align:center;">java -Xmx1024M -Xms1024M -jar (ファイル名) nogui</p>
+<br>
+<p style="text-align:center;">ファイル名は、ダウンロードしたファイルの名前を入力してください。</p>
+<p style="text-align:center;">実行すると、文字が出てきます</p>
+<p style="text-align:center;">終了するまで待つと、2個のエラーがでます。</p>
+<p style="text-align:center;">とりあえず、1個目のエラーは無視して2個目のエラーをみてください。</p>
+<br>
+<p style="text-align:center;">You need to agree to the EULA in order to run the server. Go to eula.txt for more info.</p>
+<br>
+<p style="text-align:center;">これは日本語で、「サーバーを実行するには、EULA に同意する必要があります。 詳細については、eula.txt を参照してください。」</p>
+<p style="text-align:center;">と書いています</p>
+<p style="text-align:center;">なので作成したフォルダの中に生成されているeula.txtを開きましょう</p>
+<p style="text-align:center;">eula.txtの中にある</p>
+<p style="text-align:center;">eula=falseをeula=trueに変えましょうhttps://qiita.com/ikatakoch/items/2f744284df84ddb05cde</p>
+<p style="text-align:center;">これで準備は終わりです</p>
+<br>
+<h2 style="text-align:center;">起動</h2>
+<p style="text-align:center;"><span><a href="#2" style="color:#0000ff">準備</a></span>の時に使ったコマンド</p>
+<br>
+<p style="text-align:center;">java -Xmx1024M -Xms1024M -jar (ファイル名) nogui</p>
+<br>
+<p style="text-align:center;">を使います。</p>
+<p style="text-align:center;">(ファイル名は、ダウンロードしたファイルの名前を入力してください。)</p>
+<p style="text-align:center;">実行すると、文字が出てきて、起動します</p>
+<h2 style="text-align:center;">接続</h2>
+<p style="text-align:center;">マイクラを起動し、マイクラ側から、マルチプレイを押し、ダイレクト接続から
+localhostと入力すると入れます。</p>
+<h2 style="text-align:center;">Qiita版の紹介</h2>
+<p style="text-align:center;">いかたこチャンネルのqiitaで、この記事とほぼ同じ内容を紹介しています。</p>
+<p style="text-align:center;">是非そちらご参照ください！</p>
+<p style="text-align:center;"><span><a href="https://qiita.com/ikatakoch/items/2f744284df84ddb05cde" style="color:#0000ff">こちら</a></span>から見れます</p>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<br>
+<br>
+<br>
+  </body>
+</html>
 
