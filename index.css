@@ -33,3 +33,14 @@ a {
   text-decoration: none;
   color: #ffffff
 }
+a .wj {
+  text-decoration: none;
+  color: #000000
+}
+.gurey {
+  background: #a9a9a9;
+  display: block;
+  width: 500px;
+  height: 150px;
+  text-align: center;
+}
